@@ -78,7 +78,3 @@ Esta entrega corresponde a la **primera parte del proyecto** y consiste en desar
 - [x] Diccionario de datos conceptual (independiente del lenguaje de programación)
 
 > **Nota:** el diccionario de datos de esta entrega se elaboró en términos neutros (Alfanumérico, Numérico entero, Numérico decimal, Fecha), de modo que pueda adaptarse fácilmente al lenguaje o motor de base de datos que el grupo defina en etapas posteriores del proyecto.
-
-```
-
-```
