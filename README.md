@@ -1,80 +1,61 @@
-# Sistema de Vales de Alimentación — Grupo 9
+# ATDF102 - Proyecto: Sistema de Vales de Alimentación
 
-## Información general
+## Información del curso
 
-|                 |                                        |
-| --------------- | -------------------------------------- |
-| **Asignatura**  | ATDF102                                |
-| **Ramo**        | Fundamentos de Programación            |
-| **Institución** | Universidad Andrés Bello — UNAB Online |
-| **Grupo**       | N°9                                    |
-
----
-
-## Estructura de carpetas
-
-```
-- chats
-- docs
-- src
-  README.md
-  diccionario-datos.md
-```
-
-## Problema a resolver
-
-### Pregunta o desafío inicial
-
-> ¿Cómo podemos diseñar un sistema funcional y eficiente que permita agregar funcionarios para la generación de vales alimenticios utilizando herramientas de programación y algoritmia?
-
-### Planificación del proyecto
-
-Desarrollo de un software que permita agregar funcionarios para la generación de vales alimenticios.
-
-### Contexto y desarrollo del proyecto
-
-La empresa editorial **"Libros Impresos S.A."** cuenta actualmente con una planta de 500 funcionarios, entre administrativos, operadores de máquinas, dobladores, maestros, etc., que trabajan en turnos para cubrir la operación de la empresa las 24 horas del día.
-
-Debido a que la empresa se encuentra alejada de centros comerciales y restaurantes, ha adoptado la modalidad de entregar servicio de desayuno, almuerzo y once como un beneficio para sus funcionarios. Para esto genera vales de colación, personalizados por cada turno, que son entregados a los funcionarios y que pueden ser cobrados en los dos casinos (cafetería y comedor) implementados en la empresa. Estos vales son valorizados (monto del vale) y personalizados (rut del beneficiario). Para los servicios de alimentación se ha contratado una empresa externa que, además de los servicios indicados (desayuno, almuerzo, once), ofrece otras alternativas de alimentación que pueden ser cubiertas por el valor del vale.
-
-En relación a lo anterior, la empresa requiere el desarrollo de un software que permita **agregar funcionarios**, para lo cual debe almacenar la siguiente información: rut, nombre, calle, número, región, comuna, email, teléfono, cargo, salario líquido.
-
-También debe permitir **agregar tipos de comida**: código, nombre (desayuno, almuerzo, once, otro (ejemplo: merienda)).
-
-Además, se debe almacenar la información de la **asignación de vales**: rut del empleado, código del vale, código del tipo de comida, monto, mes de asignación, año de asignación.
-
-Finalmente, se deben registrar los **vales consumidos** por los empleados, tales como: código del vale, rut del empleado, fecha de utilización, descripción.
-
-### El programa debe permitir consultar:
-
-- Empleados registrados
-- Tipos de comida registradas
-- Asignación de vales de alimentación
-- Consumo de vales de alimentación
-
-### El programa también debe permitir visualizar:
-
-- Asignación de vales
-- El monto total de dinero asignado de los vales (por tipo de comida y global)
-- El monto total de dinero asignado de los vales (por empleado y global)
-- El monto total de dinero consumido de los vales (por tipo de comida y global)
-- El monto total de dinero consumido de los vales (por empleado y global)
+|                 |                                     |
+| --------------- | ----------------------------------- |
+| **Asignatura**  | ATDF102 — Fundamentos de Algoritmia |
+| **Grupo**       | N°9                                 |
+| **Integrantes** | Juan Díaz                           |
 
 ---
 
-## Detalle de la primera entrega (Avance N°1 - Semana 3)
+## Descripción del proyecto
 
-Esta entrega corresponde a la **primera parte del proyecto** y consiste en desarrollar, un prototipo de solución algorítmica para el problema asignado por el docente. Concretamente, se debe entregar:
+Este repositorio contiene el desarrollo del proyecto grupal de la asignatura, cuyo objetivo es diseñar e implementar un sistema de software para la empresa editorial **"Libros Impresos S.A."**, que permita **registrar, consultar y calcular** la entrega de vales de colación (alimentación) para su planta de 500 funcionarios.
 
-1. **Diagrama de flujo de datos (DFD) o pseudocódigo** — representando los procesos, relaciones de datos y lógica de la solución.
-2. **Diccionario de datos** — describiendo cada una de las variables, constantes y/o estructuras de datos utilizadas, indicando tipo de dato y función.
+El proyecto se construye de manera incremental a lo largo del trimestre: cada subida a este repositorio corresponde a un **avance del proyecto**, desarrollado según los contenidos y requerimientos solicitados en la semana correspondiente del curso.
 
 ---
 
-## Estado actual del proyecto
+## Problemática a resolver
 
-- [x] Diagrama de Flujo de Datos (DFD) del sistema
-- [x] Pseudocódigo completo (proceso principal + 12 subprocesos/funciones)
-- [x] Diccionario de datos conceptual (independiente del lenguaje de programación)
+La empresa "Libros Impresos S.A." cuenta con una planta de 500 funcionarios que trabajan en turnos para cubrir la operación las 24 horas del día. Debido a que la empresa se encuentra alejada de centros comerciales y restaurantes, entrega como beneficio vales de colación (desayuno, almuerzo y once), personalizados por funcionario, que pueden cobrarse en los casinos de la empresa o en una entidad externa contratada para dicho servicio.
 
-> **Nota:** el diccionario de datos de esta entrega se elaboró en términos neutros (Alfanumérico, Numérico entero, Numérico decimal, Fecha), de modo que pueda adaptarse fácilmente al lenguaje o motor de base de datos que el grupo defina en etapas posteriores del proyecto.
+De esto surge la pregunta que guía el proyecto:
+
+> _¿Cómo podemos diseñar un sistema funcional y eficiente que permita agregar funcionarios para la generación de vales alimenticios utilizando herramientas de programación y algoritmia?_
+
+El sistema debe permitir:
+
+- **Registrar** funcionarios, tipos de comida, asignaciones de vales y consumos de vales.
+- **Consultar** cada uno de estos registros.
+- **Calcular y visualizar** los montos totales asignados y consumidos, tanto por tipo de comida como por empleado, junto con sus respectivos totales globales.
+
+---
+
+## Avances del proyecto
+
+Cada avance se documenta y sube por separado, reflejando el progreso semana a semana.
+
+### Avance 1 (subida inicial)
+
+Semana 3
+
+Corresponde a la primera entrega del proyecto y contiene:
+
+- Archivo `.docx` con el **diccionario de datos** del sistema.
+- Diagramas de flujo del proyecto (diagrama de flujo de datos y diagrama de flujo del programa).
+
+### Avance 2 (subida inicial)
+
+Semana 5
+
+Corresponde a la segunda entrega del proyecto y contiene:
+
+- Archivo `.py` con el **diccionario de datos** del sistema.
+-
+
+---
+
+_Este README se irá actualizando a medida que el proyecto avance hasta llegar a su finalización._
