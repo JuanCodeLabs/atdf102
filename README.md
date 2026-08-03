@@ -4,7 +4,7 @@
 
 |                 |                                     |
 | --------------- | ----------------------------------- |
-| **Asignatura**  | ATDF102 — Fundamentos de Algoritmia |
+| **Asignatura**  | ATDF102 — Introduccion a la Programación |
 | **Grupo**       | N°9                                 |
 | **Integrantes** | Juan Díaz                           |
 
@@ -53,8 +53,8 @@ Semana 5
 
 Corresponde a la segunda entrega del proyecto y contiene:
 
-- Archivo `.py` con los **tipos de datos** del sistema.
-- Se realiza cambios en variables en base a feedback de docente
+- Archivo `.py` con el **diccionario de datos** del sistema.
+-
 
 ---
 
