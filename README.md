@@ -47,14 +47,14 @@ Corresponde a la primera entrega del proyecto y contiene:
 - Archivo `.docx` con el **diccionario de datos** del sistema.
 - Diagramas de flujo del proyecto (diagrama de flujo de datos y diagrama de flujo del programa).
 
-### Avance 2 (subida inicial)
+### Avance 2 (avance de codigo)
 
 Semana 5
 
 Corresponde a la segunda entrega del proyecto y contiene:
 
-- Archivo `.py` con el **diccionario de datos** del sistema.
--
+- Archivo `.py` con los **tipos de datos** del sistema.
+- Se realiza cambios en variables en base a feedback de docente
 
 ---
 

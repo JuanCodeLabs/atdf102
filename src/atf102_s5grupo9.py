@@ -5,9 +5,9 @@ Sistema de Vales de Alimentación - Libros Impresos S.A.
 Semana 5: representación del diagrama de flujo / pseudocódigo del
 Avance N°1 utilizando Variables, Constantes y Tipos de Datos en Python.
 """
-# (Aún no se implementan funciones ni ciclos de menú repetitivos;
-# esa lógica se desarrollará en los siguientes avances del proyecto)
-# en base a lo solicitado por la rubrica entregada por el docente.
+# Nivel inicial: representación mediante variables, constantes y tipos de datos.
+# No se implementan estructuras avanzadas (listas, tuplas, ciclos, funciones).
+# Esta lógica se desarrollará en los siguientes avances del proyecto.
 
 MAX_FUNCIONARIOS = 500  # int   - cantidad máxima de funcionarios que admite el sistema
 MAX_TIPOS_COMIDA = 10  # int   - cantidad máxima de tipos de comida
@@ -34,7 +34,7 @@ nombre_tipo_comida = (
 
 # Variables y tipos de datos - Asignación de vale:
 codigo_vale = 1001  # int   - identificador único del vale asignado
-rut_empleado = ""  # str   - rut del funcionario beneficiario del vale
+rut_empleado = "11.111.111-1"  # str   - rut del funcionario beneficiario del vale
 monto = 4500.0  # float - valor monetario del vale
 mes_asignacion = 7  # int   - mes en que se asigna el vale (1 a 12)
 anio_asignacion = 2026  # int   - año en que se asigna el vale
@@ -43,17 +43,6 @@ anio_asignacion = 2026  # int   - año en que se asigna el vale
 fecha_utilizacion = "18/07/2026"  # str - fecha en que se utilizó el vale
 descripcion = "Almuerzo"  # str - detalle del consumo (producto o servicio adquirido)
 
-# Listas para almacenar los datos:
-funcionarios = [(rut, nombre, cargo, salario_liquido)]  # list
-tipos_comida = [(codigo_tipo_comida, nombre_tipo_comida)]  # list
-asignaciones = [(codigo_vale, rut_empleado, codigo_tipo_comida, monto)]  # list
-consumos = [(codigo_vale, rut_empleado, fecha_utilizacion, descripcion)]  # list
-
-# Contadores:
-cant_funcionarios = len(funcionarios)  # int - cantidad de funcionarios registrados
-cant_tipos_comida = len(tipos_comida)  # int - cantidad de tipos de comida registrados
-cant_asignaciones = len(asignaciones)  # int - cantidad de asignaciones registradas
-cant_consumos = len(consumos)  # int - cantidad de consumos registrados
 
 # Variable de control del menú:
 opcion = 0  # int - opción elegida por el usuario en el menú
@@ -65,11 +54,8 @@ print("2. Consultar")
 print("3. Calcular")
 print("4. Salir")
 
-# Validación de la opción ingresada por el usuario:
-opcion = input("Ingrese una opción: ")
-while not opcion.isdigit():  # Confirmar que la opción ingresada es un número
-    opcion = input("Ingrese una opción: ")
-opcion = int(opcion)
+# Opción ingresada por el usuario (sin validación en este nivel inicial):
+opcion = 1  # int - opción de ejemplo para mostrar el flujo del sistema
 
 # Ejecución de la opción seleccionada por el usuario:
 """
