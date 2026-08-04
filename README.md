@@ -54,7 +54,17 @@ Semana 5
 Corresponde a la segunda entrega del proyecto y contiene:
 
 - Archivo `.py` con el **diccionario de datos** del sistema.
--
+- Se realiza cambios en codigo fuente en base a feedback por docente.
+
+### Avance 3 (avance de codigo)
+
+Semana 7
+
+Corresponde a la tercera entrega del proyecto y contiene:
+
+- Se realiza integración de sentencias de control (if/elif/while/for) y estructuras de datos (listas de diccionarios) en el código fuente.
+- Se agregan comentarios al código fuente para mejorar la legibilidad.
+- Se implementa el menú principal y submenús de registro, consulta y cálculo a cada opción a realizar.
 
 ---
 
