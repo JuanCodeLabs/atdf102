@@ -2,11 +2,11 @@
 
 ## Información del curso
 
-|                 |                                     |
-| --------------- | ----------------------------------- |
+|                 |                                          |
+| --------------- | ---------------------------------------- |
 | **Asignatura**  | ATDF102 — Introduccion a la Programación |
-| **Grupo**       | N°9                                 |
-| **Integrantes** | Juan Díaz                           |
+| **Grupo**       | N°9                                      |
+| **Integrantes** | Juan Díaz                                |
 
 ---
 
@@ -65,6 +65,24 @@ Corresponde a la tercera entrega del proyecto y contiene:
 - Se realiza integración de sentencias de control (if/elif/while/for) y estructuras de datos (listas de diccionarios) en el código fuente.
 - Se agregan comentarios al código fuente para mejorar la legibilidad.
 - Se implementa el menú principal y submenús de registro, consulta y cálculo a cada opción a realizar.
+
+### Avance 4 (definición de funciones)
+
+Semana 9
+
+Corresponde a la tercera entrega del proyecto y contiene:
+
+- Se realiza la definición de funciones en el código fuente.
+- Se maneja el sistema a traves de módulos.
+- Se implementa la lógica de negocio en las funciones.
+
+### Entrega final (modularización final y documentación)
+
+Semana 9
+
+- Se amplían las funciones existentes para mejorar la reutilización del código.
+- Se realiza separación de funciones en módulos independientes (archivos py) para mejorar la organización del código.
+- Se implementan funciones para mejorar la legibilidad del programa.
 
 ---
 
