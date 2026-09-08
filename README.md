@@ -78,7 +78,7 @@ Corresponde a la tercera entrega del proyecto y contiene:
 
 ### Entrega final (modularización final y documentación)
 
-Semana 9
+Semana 12
 
 - Se amplían las funciones existentes para mejorar la reutilización del código.
 - Se realiza separación de funciones en módulos independientes (archivos py) para mejorar la organización del código.
